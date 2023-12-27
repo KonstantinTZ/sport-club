@@ -228,6 +228,13 @@ body {
   display: flex;
   justify-content: center;
 }
+.advantages__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 78px;
+}
 .advantages__list {
   margin: 0;
   padding: 0;
@@ -276,7 +283,14 @@ body {
 .about {
   margin-bottom: 151px;
 }
-.about__container {
+.about__top-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 78px;
+}
+.about__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -682,4 +696,12 @@ body {
 }
 .news__item-btn:focus {
   overflow: 1px solid var(--color-purpure);
+}
+
+.map__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 78px;
 }/*# sourceMappingURL=style.css.map */

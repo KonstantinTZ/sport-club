@@ -248,6 +248,11 @@ body {
   display: flex;
   justify-content: center;
 
+  &__title {
+    @include section-title();
+    margin-bottom: 78px;
+  }
+
   &__list {
     @include list-reset();
     display: flex;
@@ -302,7 +307,12 @@ body {
 .about {
   margin-bottom: 151px;
 
-  &__container {
+  &__top-title{
+    @include section-title();
+    margin-bottom: 78px;
+  }
+
+  &__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,4 +770,11 @@ body {
     overflow: 1px solid var(--color-purpure)
   }
 
+}
+
+.map{
+  &__title{
+    @include section-title();
+    margin-bottom: 78px;
+  }
 }
